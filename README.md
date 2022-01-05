@@ -19,3 +19,7 @@ User:test
 password:6214157507237678334670591556762
 bastion_IP = 62.84.125.225
 someinternalhost_IP = 10.128.0.35
+
+
+testapp_IP = 62.84.116.40
+testapp_port = 9292
