@@ -1,6 +1,5 @@
 cloud_id = "your_cloud_id"
 folder_id = "your_folder_id"
-zone = "ru-central1-a"
 image_id = "image_id"
 public_key_path = "your_path_to_public_key"
 subnet_id = "your_subnet_id"
