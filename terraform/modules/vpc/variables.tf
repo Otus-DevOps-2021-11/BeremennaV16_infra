@@ -13,17 +13,11 @@ variable "public_key_path" {
   # Описание переменной
   description = "Path to the public key used for ssh access"
 }
-#variable "image_id" {
-#  description = "Disk image"
-#}
 variable "subnet_id" {
   description = "Subnet"
 }
 variable "service_account_key_file" {
   description = "key .json"
-}
-variable "private_key" {
-  description = "your private ssh key"
 }
 variable "app_disk_image" {
   description = "image id for app"
@@ -33,16 +27,4 @@ variable "db_disk_image" {
 }
 variable "yandex_vpc_network" {
   description = "id of my vpc_network"
-}
-variable "bucket" {
-  description = "my bucket name"
-}
-variable "key" {
-  description = "name of object in bucket"
-}
-variable "source" {
-  description = "path to my backet"
-}
-variable "access_key" {
-  description "access_key"
 }

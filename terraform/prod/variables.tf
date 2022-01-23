@@ -34,15 +34,3 @@ variable "db_disk_image" {
 variable "yandex_vpc_network" {
   description = "id of my vpc_network"
 }
-variable "bucket" {
-  description = "my bucket name"
-}
-variable "key" {
-  description = "name of object in bucket"
-}
-variable "source" {
-  description = "path to my backet"
-}
-variable "access_key" {
-  description "access_key"
-}
