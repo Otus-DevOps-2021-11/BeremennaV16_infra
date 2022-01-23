@@ -18,10 +18,12 @@ module "app" {
   public_key_path = var.public_key_path
   app_disk_image = var.app_disk_image
   subnet_id = var.subnet_id
+  name            = "reddit-app-prod"
 }
 module "db" {
   source = "../modules/db"
   public_key_path = var.public_key_path
   db_disk_image = var.db_disk_image
   subnet_id = var.subnet_id
+  name            = "reddit-db-prod"
 }
