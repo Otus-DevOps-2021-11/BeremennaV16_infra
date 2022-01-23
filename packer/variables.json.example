@@ -3,6 +3,7 @@
 "service_account_key_file": "otus-service_key.json",
 "folder_id": "your_folder_id",
 "source_image_family": "your_image_family"
-
+"use_ipv4_nat": "true",
+"subnet_id": "your_subnet_id"
 
 }
