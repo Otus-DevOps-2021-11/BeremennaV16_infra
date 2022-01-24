@@ -27,11 +27,9 @@ variable "private_key" {
 }
 variable "app_disk_image" {
   description = "image id for app"
-  default     = "fd8hidjdmp0unfmll93i"
 }
 variable "db_disk_image" {
   description = "image id for db"
-  default     = "fd8732b042bd42vd58p7"
 }
 variable "yandex_vpc_network" {
   description = "id of my vpc_network"
