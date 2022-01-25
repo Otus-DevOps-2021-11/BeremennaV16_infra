@@ -1,12 +1,13 @@
-#terraform {
-#  required_providers {
-#    yandex = {
-#      source  = "yandex-cloud/yandex"
-#      version = "0.61.0"
-#    }
-#  }
-#}
-
+/*
+terraform {
+  required_providers {
+    yandex = {
+      source  = "yandex-cloud/yandex"
+      version = "0.69.0"
+    }
+  }
+}
+*/
 resource "yandex_compute_instance" "app" {
   name = "reddit-app"
   zone = var.zone
