@@ -5,3 +5,4 @@ packer/variables.json
 *.tfvars
 .terraform/
 terraform/terraform_key.json
+/ansible/git_installer.yml
