@@ -6,3 +6,4 @@ packer/variables.json
 .terraform/
 terraform/terraform_key.json
 /ansible/git_installer.yml
+*.retry
