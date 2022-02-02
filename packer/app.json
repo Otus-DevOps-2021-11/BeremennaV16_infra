@@ -7,7 +7,7 @@
             "source_image_family": "{{user `source_image_family`}}",
             "image_name": "reddit-app-base",
             "image_family": "ruby",
-            "image_description": "image_for_creation_ruby",
+            "image_description": "ruby_packer_image_created_using_ansibe",
             "ssh_username": "ubuntu",
             "platform_id": "standard-v1",
 	          "use_ipv4_nat": "{{user `use_ipv4_nat`}}",
@@ -16,10 +16,8 @@
     ],
      "provisioners": [
       {
-        "type": "shell",
-        "script": "scripts/install_ruby.sh",
-        "execute_command": "sudo {{.Path}}"
-
+        "type": "ansible",
+        "playbook_file": "ansible/packer_app.yml"
       }
 
     ]
