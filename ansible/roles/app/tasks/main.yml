@@ -23,4 +23,4 @@
     group : ubuntu
 
 - name    : Enable puma
-  command : systemctl enable puma
+  systemd: name=puma enabled=yes
