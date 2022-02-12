@@ -7,3 +7,4 @@ packer/variables.json
 terraform/terraform_key.json
 /ansible/git_installer.yml
 *.retry
+jdauphant.nginx

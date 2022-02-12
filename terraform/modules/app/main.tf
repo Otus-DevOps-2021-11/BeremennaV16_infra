@@ -8,6 +8,9 @@ terraform {
   }
 }
 
+
+
+
 resource "yandex_compute_instance" "app" {
   name = "reddit-app"
   zone = var.zone
